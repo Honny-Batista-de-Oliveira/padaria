@@ -1,0 +1,108 @@
+/* Reset CSS Intermediário */
+
+/* Redefinir margens e preenchimentos para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Redefinir a caixa-modelo para todos os elementos */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Definir um estilo de fonte padrão e tamanho de base */
+body {
+  font-family: 'Alata', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  
+}
+
+/* Remover sublinhado de links */
+a {
+  text-decoration: none;
+  
+}
+
+/* Remover list-style de listas não ordenadas e ordenadas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover margens padrão para listas e descrições */
+dl, dd, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir estilo de link padrão */
+a {
+  color: black;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+/* Remover decoração de listas não ordenadas aninhadas */
+ul ul {
+  list-style-type: none;
+}
+
+	
+div{
+	margin-top: 5%;
+	border: 1px solid gray;
+	background-color: black;
+	color: white;
+	border-radius: 5%;
+	padding: 7px;
+}
+	
+.um{
+	display: none;
+}	
+.dois{
+	display: block;
+}
+#banner-top{
+	font-size: 40px;
+	margin-bottom: 10%;
+	text-align: center;
+	color: white;
+	height: 150px;
+	border: none;
+	background-color: white;
+	margin-top: 0%;
+}
+#imagem-topo{
+	width: 100%;	
+	height: 200px;
+	border: 5px solid black;
+	
+}	
+#primeira-div{
+	margin-top: 40%;
+}
+.imagens-complementares{
+	width: 100%;
+	height: 200px;
+	margin-top: 5%;
+	border-radius: 5%;
+	border: 2px solid white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+	color: white;
+	margin-top: 5%;
+}
+
